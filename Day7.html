@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Learn HTML Semantic Tags, Meta Tags and Form Validation">
+
+    <meta name="keywords" content="HTML, Semantic Tags, Meta Tags, Form Validation">
+
+    <title>Day 7 - Semantic and Meta Tags</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Day 7 - My HTML Learning Journey</h1>
+    <h2>Form Validation, Semantic Tags and Meta Tags</h2>
+</header>
+
+<hr>
+
+<main>
+
+<section>
+    <h2>1. Form Validation</h2>
+
+    <p><b>English:</b> Form Validation checks whether user input is correct.</p>
+
+    <p><b>తెలుగు:</b> User ఇచ్చిన సమాచారం సరైనదో కాదో పరీక్షించడాన్ని Form Validation అంటారు.</p>
+
+    <h3>Important Attributes</h3>
+
+    <ul>
+        <li>required - Makes a field mandatory.</li>
+        <li>pattern - Defines a valid input format.</li>
+        <li>title - Displays additional instructions.</li>
+        <li>placeholder - Shows hint text.</li>
+    </ul>
+
+    <h3>Example: Student Details</h3>
+
+    <form>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"
+        pattern="[A-Za-z]{3,15}" placeholder="Enter username"
+        title="Enter 3 to 15 letters" required>
+
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"
+        pattern="[0-9]{10}" placeholder="Enter 10 digit number"
+        title="Enter 10 digit phone number" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
+        placeholder="Enter email" required>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</section>
+
+<hr>
+
+<section>
+    <h2>2. Semantic HTML5 Tags</h2>
+
+    <p><b>English:</b> Semantic tags clearly describe the meaning of webpage content.</p>
+
+    <p><b>తెలుగు:</b> Webpage లోని ప్రతి భాగం యొక్క అర్థాన్ని స్పష్టంగా తెలియజేసే tags ను Semantic Tags అంటారు.</p>
+
+    <h3>Important Semantic Tags</h3>
+
+    <ul>
+        <li>header - Defines the header section.</li>
+        <li>nav - Defines navigation links.</li>
+        <li>main - Defines main content.</li>
+        <li>section - Groups related content.</li>
+        <li>article - Defines independent content.</li>
+        <li>aside - Defines additional content.</li>
+        <li>footer - Defines footer information.</li>
+    </ul>
+
+    <h3>Example</h3>
+
+    <header>
+        <h3>My Website</h3>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h3>Home Section</h3>
+            <p>Welcome to my HTML learning website.</p>
+        </section>
+
+        <article>
+            <h3>My Learning</h3>
+            <p>I am learning HTML step by step.</p>
+        </article>
+
+        <aside>
+            <p>Additional Information: Keep Practicing!</p>
+        </aside>
+    </main>
+
+    <footer id="contact">
+        <p>My HTML Learning Portal</p>
+    </footer>
+
+</section>
+
+<hr>
+
+<section>
+    <h2>3. HTML Meta Tags</h2>
+
+    <p><b>English:</b> Meta tags provide information about a webpage.</p>
+
+    <p><b>తెలుగు:</b> Webpage గురించి అదనపు సమాచారాన్ని Browser మరియు Search Engines కు తెలియజేస్తాయి.</p>
+
+    <h3>Important Meta Tags</h3>
+
+    <ul>
+        <li>charset - Defines character encoding.</li>
+        <li>viewport - Helps webpages adjust to screen sizes.</li>
+        <li>description - Describes the webpage.</li>
+        <li>keywords - Provides webpage keywords.</li>
+        <li>refresh - Refreshes or redirects a webpage.</li>
+    </ul>
+
+    <h3>Example</h3>
+
+    <p>Meta tags are written inside the head section of HTML.</p>
+
+    <p>Example: &lt;meta charset="UTF-8"&gt;</p>
+</section>
+
+<hr>
+
+<section>
+    <h2>4. Key Learning</h2>
+
+    <p>Today I learned Form Validation, Semantic HTML5 Tags and Meta Tags.</p>
+
+    <p>ఈ రోజు Form Validation, Semantic Tags మరియు Meta Tags గురించి నేర్చుకున్నాను.</p>
+</section>
+
+<section>
+    <h2>5. Practice Tasks</h2>
+
+    <ol>
+        <li>Create a form with username validation.</li>
+        <li>Add phone number validation.</li>
+        <li>Add email validation.</li>
+        <li>Use all important Semantic Tags.</li>
+        <li>Add Meta Tags inside the head section.</li>
+    </ol>
+</section>
+
+</main>
+
+<hr>
+
+<footer>
+    <h3>Keep Learning! Keep Practicing!</h3>
+    <p>Learning - Practicing - Improving</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn HTML Links and Image Mapping">
+    <meta name="keywords" content="HTML, Links, Email, GitHub, LinkedIn, Image Mapping">
+
+    <title>Day 8 - HTML Links and Image Mapping</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Day 8 - My HTML Learning Journey</h1>
+    <h2>HTML Links and Image Mapping</h2>
+</header>
+
+<hr>
+
+<nav>
+    <a href="#links">HTML Links</a> |
+    <a href="#email">Email Link</a> |
+    <a href="#profiles">My Profiles</a> |
+    <a href="#mapping">Image Mapping</a> |
+    <a href="#practice">Practice</a>
+</nav>
+
+<hr>
+
+<main>
+
+<section id="links">
+    <h2>1. HTML Hyperlinks</h2>
+
+    <h3>Definition:</h3>
+    <p>
+        Hyperlinks are used to connect one webpage
+        to another webpage or website.
+    </p>
+
+    <h3>తెలుగు అర్థం:</h3>
+    <p>
+        ఒక Webpage నుండి మరొక Webpage కి వెళ్లడానికి
+        ఉపయోగించే links ను Hyperlinks అంటారు.
+    </p>
+
+    <h3>Why do we use Links?</h3>
+    <p>
+        Links help users navigate between webpages
+        and websites.
+    </p>
+
+    <h3>Syntax:</h3>
+    <p>
+        &lt;a href="URL"&gt;Link Text&lt;/a&gt;
+    </p>
+
+    <h3>Example:</h3>
+    <a href="https://www.google.com" target="_blank">
+        Open Google
+    </a>
+
+    <h3>Important Attribute:</h3>
+    <ul>
+        <li>href - Specifies the destination URL.</li>
+        <li>target="_blank" - Opens the link in a new tab.</li>
+    </ul>
+</section>
+
+<hr>
+
+<section id="email">
+    <h2>2. Email Links</h2>
+
+    <p><b>English:</b> Email links open an email application
+    to send an email.</p>
+
+    <p><b>తెలుగు:</b> Email పంపడానికి ఉపయోగించే links ను
+    Email Links అంటారు.</p>
+
+    <h3>Syntax:</h3>
+    <p>
+        &lt;a href="mailto:email@example.com"&gt;Send Email&lt;/a&gt;
+    </p>
+
+    <h3>My Email:</h3>
+
+    <a href="mailto:pujithaguduri1908@gmail.com">
+        Send Email to Pujitha
+    </a>
+</section>
+
+<hr>
+
+<section id="profiles">
+    <h2>3. My Social and Coding Profiles</h2>
+
+    <h3>GitHub</h3>
+    <p>
+        GitHub is used to store and share coding projects.
+    </p>
+
+    <a href="https://github.com/pujitha-guduri"
+       target="_blank">
+        Visit My GitHub Profile
+    </a>
+
+    <h3>LinkedIn</h3>
+    <p>
+        LinkedIn is a professional networking platform.
+    </p>
+
+    <a href="https://www.linkedin.com/in/pujitha-guduri-788b9b352"
+       target="_blank">
+        Visit My LinkedIn Profile
+    </a>
+</section>
+
+<hr>
+
+<section>
+    <h2>4. Phone Links</h2>
+
+    <p>
+        English: Phone links allow users to call a phone number.
+    </p>
+
+    <p>
+        తెలుగు: Phone number పై click చేసి call చేయడానికి
+        Phone Links ఉపయోగిస్తాము.
+    </p>
+
+    <h3>Syntax:</h3>
+
+    <p>
+        &lt;a href="tel:+91XXXXXXXXXX"&gt;Call Us&lt;/a&gt;
+    </p>
+
+    <p>Note: Replace XXXXXXXXXX with an actual phone number.</p>
+</section>
+
+<hr>
+
+<section>
+    <h2>5. Internal and External Links</h2>
+
+    <h3>Internal Links</h3>
+
+    <p>
+        Internal links connect different sections
+        within the same webpage.
+    </p>
+
+    <a href="#mapping">Go to Image Mapping</a>
+
+    <h3>External Links</h3>
+
+    <p>
+        External links connect to other websites.
+    </p>
+
+    <a href="https://www.wikipedia.org" target="_blank">
+        Open Wikipedia
+    </a>
+</section>
+
+<hr>
+
+<section id="mapping">
+    <h2>6. HTML Image Mapping</h2>
+
+    <h3>Definition:</h3>
+
+    <p>
+        Image Mapping allows users to click on specific
+        areas of an image to open different links.
+    </p>
+
+    <h3>తెలుగు అర్థం:</h3>
+
+    <p>
+        ఒక Image లోని నిర్దిష్ట భాగాలపై click చేస్తే
+        వేర్వేరు links open అయ్యే విధానాన్ని Image Mapping అంటారు.
+    </p>
+
+    <h3>Important Tags:</h3>
+
+    <ul>
+        <li>img - Displays an image.</li>
+        <li>map - Defines an image map.</li>
+        <li>area - Defines a clickable area.</li>
+        <li>usemap - Connects an image with a map.</li>
+    </ul>
+
+    <h3>My Hostel Location</h3>
+
+    <p>
+        Manikanta's Liv Space Luxury Women's Hostel
+    </p>
+
+    <p>KPHB Colony, Road Number 1, Hyderabad.</p>
+
+    <p>
+        Click on my image to view the hostel location
+        in Google Maps.
+    </p>
+
+    <img src="pujitha.jpg"
+         alt="Pujitha Image - Click to view Hostel Location"
+         width="300"
+         height="300"
+         usemap="#hostelmap">
+
+    <map name="hostelmap">
+        <area shape="rect"
+              coords="0,0,300,300"
+              href="https://maps.app.goo.gl/iNvmkW4Z5oFNCSQ66"
+              alt="Manikanta's Liv Space Luxury Women's Hostel"
+              target="_blank">
+    </map>
+
+    <p>
+        <a href="https://maps.app.goo.gl/iNvmkW4Z5oFNCSQ66"
+           target="_blank">
+            View Hostel Location on Google Maps
+        </a>
+    </p>
+</section>
+
+<hr>
+
+<section>
+    <h2>7. Key Learning</h2>
+
+    <p>
+        Today I learned HTML Hyperlinks, Email Links,
+        Phone Links, Internal Links, External Links
+        and Image Mapping.
+    </p>
+
+    <p>
+        ఈ రోజు HTML Links, Email Links, Phone Links,
+        Internal Links, External Links మరియు Image Mapping
+        గురించి నేర్చుకున్నాను.
+    </p>
+</section>
+
+<hr>
+
+<section id="practice">
+    <h2>8. Practice Tasks</h2>
+
+    <ol>
+        <li>Create a Google hyperlink.</li>
+        <li>Create an Email Link.</li>
+        <li>Add your GitHub profile link.</li>
+        <li>Add your LinkedIn profile link.</li>
+        <li>Create a Phone Link using tel.</li>
+        <li>Create Internal and External Links.</li>
+        <li>Create an Image Map using map and area tags.</li>
+    </ol>
+</section>
+
+</main>
+
+<hr>
+
+<footer>
+    <h2>Keep Learning! Keep Practicing!</h2>
+    <p>Learning - Practicing - Improving</p>
+    <p>My HTML Learning Journey - Day 8</p>
+</footer>
+
+</body>
+</html>

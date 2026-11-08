@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 - Basic HTML Tags</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Day 3 - Basic HTML Tags</h1>
+    <p>Learn, Practice and Grow!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="Day1.html">Day 1</a> |
+    <a href="Day2.html">Day 2</a> |
+    <a href="Day3.html">Day 3</a>
+</nav>
+
+<main>
+
+    <h2>1. Heading Tags (h1 to h6)</h2>
+
+    <p><b>Definition:</b> Heading tags are used to display titles and subtitles.</p>
+    <p><b>తెలుగు:</b> వెబ్ పేజీలో శీర్షికలు రాయడానికి ఉపయోగిస్తాము.</p>
+    <p><b>Why:</b> To organize content with different heading levels.</p>
+
+    <h3>Shortcut in VS Code</h3>
+    <p>Type h1 and press Tab.</p>
+    <p>Expanded code: &lt;h1&gt;&lt;/h1&gt;</p>
+
+    <h3>Example and Output</h3>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <hr>
+
+    <h2>2. Paragraph Tag (p)</h2>
+
+    <p><b>Definition:</b> The p tag is used to write paragraphs.</p>
+    <p><b>తెలుగు:</b> పేరాగ్రాఫ్ రాయడానికి ఉపయోగిస్తాము.</p>
+    <p><b>Why:</b> To display text as separate paragraphs.</p>
+
+    <p><b>Shortcut:</b> Type p and press Tab.</p>
+    <p><b>Example:</b></p>
+    <p>HTML is used to create web pages.</p>
+    <p>Welcome to my learning portal.</p>
+
+    <hr>
+
+    <h2>3. Preformatted Tag (pre)</h2>
+
+    <p><b>Definition:</b> The pre tag preserves spaces and line breaks.</p>
+    <p><b>తెలుగు:</b> మనం ఇచ్చిన ఖాళీలు మరియు లైన్ మార్పులను అలాగే చూపిస్తుంది.</p>
+
+    <p><b>Shortcut:</b> Type pre and press Tab.</p>
+
+    <pre>
+Name: Pujitha
+Course: HTML
+Day: 3
+    </pre>
+
+    <hr>
+
+    <h2>4. Line Break Tag (br)</h2>
+
+    <p><b>Definition:</b> The br tag breaks a line.</p>
+    <p><b>తెలుగు:</b> కొత్త లైన్‌లో text రావడానికి ఉపయోగిస్తాము.</p>
+
+    <p><b>Shortcut:</b> Type br and press Tab.</p>
+
+    <p>
+        Hello Pujitha!<br>
+        Welcome to HTML.<br>
+        Keep Practicing!
+    </p>
+
+    <p>Note: br is a void element. It does not need a closing tag.</p>
+
+    <hr>
+
+    <h2>5. Horizontal Rule Tag (hr)</h2>
+
+    <p><b>Definition:</b> The hr tag creates a horizontal line between sections.</p>
+    <p><b>తెలుగు:</b> రెండు sections మధ్య అడ్డ గీత చూపించడానికి ఉపయోగిస్తాము.</p>
+
+    <p><b>Shortcut:</b> Type hr and press Tab.</p>
+
+    <p>First Section</p>
+    <hr>
+    <p>Second Section</p>
+
+    <p>Note: hr is also a void element.</p>
+
+    <hr>
+
+    <h2>6. Image Tag (img)</h2>
+
+    <p><b>Definition:</b> The img tag displays an image on a web page.</p>
+    <p><b>తెలుగు:</b> వెబ్ పేజీలో ఫోటో చూపించడానికి ఉపయోగిస్తాము.</p>
+
+    <p><b>Shortcut:</b> Type img and press Tab.</p>
+
+    <p><b>Example:</b></p>
+    <p>&lt;img src="pujitha.jpg" alt="My Photo" width="200"&gt;</p>
+
+    <img src="pujitha.jpg" alt="Pujitha Profile Photo" width="200">
+
+    <h3>Important Attributes</h3>
+    <ul>
+        <li>src - Specifies the image location.</li>
+        <li>alt - Gives alternative text if image cannot load.</li>
+        <li>width - Sets image width.</li>
+    </ul>
+
+    <p>Note: Keep pujitha.jpg in the same folder as Day3.html.</p>
+
+    <hr>
+
+    <h2>7. Audio Tag (audio)</h2>
+
+    <p><b>Definition:</b> The audio tag adds sound files to a web page.</p>
+    <p><b>తెలుగు:</b> వెబ్ పేజీలో ఆడియో వినడానికి ఉపయోగిస్తాము.</p>
+
+    <p><b>Shortcut:</b> Type audio and press Tab.</p>
+
+    <p><b>Example:</b></p>
+
+    <pre>
+&lt;audio controls&gt;
+    &lt;source src="english-learning.ogg" type="audio/ogg"&gt;
+&lt;/audio&gt;
+    </pre>
+
+    <audio controls>
+        <source src="english-learning.ogg" type="audio/ogg">
+        Your browser does not support audio.
+    </audio>
+
+    <h3>Important Attribute</h3>
+    <ul>
+        <li>controls - Displays play and pause controls.</li>
+        <li>src - Specifies the audio file location.</li>
+    </ul>
+
+    <hr>
+
+    <h2>8. Video Tag (video)</h2>
+
+    <p><b>Definition:</b> The video tag displays video files on a web page.</p>
+    <p><b>తెలుగు:</b> వెబ్ పేజీలో వీడియోలు చూడడానికి ఉపయోగిస్తాము.</p>
+
+    <p><b>Shortcut:</b> Type video and press Tab.</p>
+
+    <p><b>Example:</b></p>
+
+    <pre>
+&lt;video width="320" controls&gt;
+    &lt;source src="learning-video.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+    </pre>
+
+    <video width="320" controls>
+        <source src="learning-video.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    <h3>Important Attributes</h3>
+    <ul>
+        <li>controls - Displays video controls.</li>
+        <li>width - Sets video width.</li>
+        <li>height - Sets video height.</li>
+        <li>src - Specifies the video file location.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Important Points</h2>
+    <ol>
+        <li>HTML provides six heading tags.</li>
+        <li>Paragraph tag is used for text.</li>
+        <li>Pre tag preserves spaces and line breaks.</li>
+        <li>Br tag creates a line break.</li>
+        <li>Hr tag creates a horizontal line.</li>
+        <li>Img tag displays images.</li>
+        <li>Audio tag plays audio files.</li>
+        <li>Video tag plays video files.</li>
+    </ol>
+
+    <hr>
+
+    <h2>Practice Questions</h2>
+    <ol>
+        <li>How many heading tags are available in HTML?</li>
+        <li>What is the use of p tag?</li>
+        <li>What is the purpose of pre tag?</li>
+        <li>What is the difference between br and hr?</li>
+        <li>What is the use of img tag?</li>
+        <li>What is the purpose of alt attribute?</li>
+        <li>What is the use of controls in audio and video?</li>
+    </ol>
+
+    <h2>Self Learning Task</h2>
+    <p>Create a personal introduction page using heading, paragraph, image, audio and video tags.</p>
+
+</main>
+
+<footer>
+    <p>Created by Pujitha</p>
+    <p>Day 3 - Learn, Practice and Grow!</p>
+    <a href="index.html">Back to Home</a>
+</footer>
+
+</body>
+</html>
